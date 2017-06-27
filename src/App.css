@@ -1,0 +1,40 @@
+body {
+  background-color: #64bce8
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /*animation: App-logo-spin infinite 7s linear;*/
+  height: 150px;
+  width: 150px;
+}
+
+.App-header {
+  background-color: #000;
+  height: 225px;
+  color: #fff;
+}
+
+.BillList {
+  margin-top: 25px;
+  font-size: large;
+}
+
+.Bill {
+  color: #000;
+  background-color: #fff;
+  margin-bottom: 25px;
+}
+
+.Bill tr th {
+  text-align: center;
+  color: rgb(65, 190, 236)
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
